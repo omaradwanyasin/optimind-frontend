@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LearnPage from "./Pages/LearnPage.tsx";
+import ADWN from "./Pages/Adwn.tsx";
+import CodingCompetition from "./Pages/CodingCompetitiopn.tsx";
+import HomePage from "./Pages/HomePage.tsx";
+import UserDashboard from "./Pages/UserDashboard.tsx";
+import Profile from "./Pages/Profile.tsx";
+import Codingpage from "./Pages/Codingpage.tsx";
+import LoginPage from "./Pages/LoginPage.tsx";
+import SignUpPage from "./Pages/SignUpPage.tsx";
+import TechnicalInterviewAnalysis from "./Pages/TechnicalInterviewAnalysis.tsx";
+import StudyGroups from "./Pages/StudyGroups.tsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/learn" element={<LearnPage />} />
+        <Route path="/interviews" element={<ADWN />} />
+        <Route path="/battles" element={<CodingCompetition />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/profile" element={<UserDashboard />} />
+        <Route path="/test" element={<Profile />} />
+        <Route path="/coding" element={<Codingpage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/tech" element={<TechnicalInterviewAnalysis />} />
+        <Route path="/study" element={<StudyGroups />} />
+      </Routes>
+    </Router>
   );
 }
 
