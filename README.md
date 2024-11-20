@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Optimind
 
-## Available Scripts
+is an innovative web application designed to help students and job seekers prepare for technical interviews, improve their skills, and connect with like-minded individuals. With features ranging from AI-powered mock interviews to community-driven learning groups, Optimind aims to revolutionize how candidates approach interview preparation and professional development.
 
-In the project directory, you can run:
 
-### `npm start`
+1. AI-Powered Mock Interviews
+Simulates real technical interviews using AI models.
+Conducts interviews via video calls (e.g., Zoom) with dynamic questioning.
+Includes a problem-solving session where the candidate writes code in real time, and the AI evaluates the solution while offering hints.
+2. Code Evaluation and Feedback
+Real-time code analysis for problem-solving sessions.
+Feedback includes syntax analysis, logic improvement suggestions, and performance insights.
+3. Community and Group Learning
+Learning Groups: Users can form or join groups focused on achieving specific learning goals within a defined time.
+Progress Tracking: Tracks group and individual progress against set goals.
+4. Coding Battles
+Engage in friendly coding challenges with other users.
+Provides an interactive and competitive way to practice problem-solving.
+5. Content Sharing
+Users can share reels or short videos explaining concepts, experiences, or interview tips.
+Encourages a knowledge-sharing culture.
+Technology Stack
+Optimind is built using modern technologies to ensure performance, scalability, and an exceptional user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+1. AI Mock Interviews
+Register and log in to the platform.
+Schedule an interview session with the AI.
+Join the session via the provided Zoom link and start practicing.
+2. Learning Groups
+Browse or create groups with specific learning goals (e.g., "Mastering Data Structures in 30 Days").
+Participate actively and track progress.
+3. Coding Battles
+Challenge your friends or random users to coding battles.
+Solve problems in real-time and compare scores.
+4. Reels and Community
+Upload short reels explaining interview experiences or technical concepts.
+Engage with the community by liking, commenting, and sharing.
+Contributing
+We welcome contributions from the community! To contribute:
 
-### `npm run build`
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Make changes and commit: git commit -m "Add feature-name".
+Push your branch: git push origin feature-name.
+Open a pull request.
+Please ensure your code adheres to our contribution guidelines.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Roadmap
+Short-Term Goals
+Add a leaderboard for coding battles.
+Enhance the AI’s feedback capabilities.
+Improve UI/UX based on user feedback.
+Long-Term Goals
+Launch mobile apps for iOS and Android.
+Expand features for soft skill interview preparation.
+Integrate job matching based on skills and interview performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contact
+For inquiries, feedback, or support, please reach out to:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Omar Yasin
+Founder, Optimind
